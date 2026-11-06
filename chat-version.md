@@ -20,6 +20,7 @@
    ②返事のルール3つ（日本語で・結論から・専門用語は言い換える）
    ③フォルダの地図：memory（状態と日誌）／staff（AI社員）／inbox（未整理）の3つと、どこに何を入れるかを1行ずつ
    最後に「会話の終わりに、memory/cases の該当カードと memory/daily を更新する」と1行。全部で40行以内。
+   あわせて AGENTS.md を作り、「最初に CLAUDE.md を読む」と1行だけ書く（Codexの入口）。
 3. memory/cases/ … ③で聞いた案件を1件1ファイルで。見出しは「要約」「いまやっていること」「次の一手」「待っていること」の4つ。
 4. memory/daily/ … 今日の日付のファイルを作り、今日の会話を3行で書く。
 5. staff/writer/_RULE.md … 「役割：自分の代わりにXの投稿を書く担当」「読む順番：about-me.md → memory/cases の関係するカード → skills の手順書」「成果物の置き場：staff/writer/output/」の3つ。

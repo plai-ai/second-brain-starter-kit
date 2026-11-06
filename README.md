@@ -12,7 +12,7 @@ Obsidian と Claude Code で使う、フォルダ1つ。中に、案内板（CLA
 
 1. **入れる** — 上の緑の「Code」→「Download ZIP」で保存し、展開する。中の `second-brain` フォルダを、デスクトップなど好きな場所へ移す。
 2. **開く** — Obsidian を起動し、「保管庫としてフォルダを開く」で `second-brain` を選ぶ。
-3. **話す** — Claude アプリの「Code」タブで、同じ `second-brain` フォルダを選び、こう打つ。
+3. **話す** — Obsidianで `Command + Shift + H`（Windowsは `Ctrl + Shift + H`）を押してターミナルを開き、`claude` と打ってから、こう打つ。
 
 ```text
 昨日の続き、何だっけ
@@ -20,7 +20,9 @@ Obsidian と Claude Code で使う、フォルダ1つ。中に、案内板（CLA
 
 見本の案件カードを読んで「次の一手」から答えたら、つながっています。そのあと、あなたのことを5つ質問して `about-me.md` を書いてくれます。普段話す言葉で答えてください。
 
-黒い画面が好きな人は、`second-brain` フォルダの中で `claude` と打つだけです。Codex でも同じフォルダで動きます（CLAUDE.md を AGENTS.md という名前でコピーしてください）。
+Codex の人は `codex` と打ちます。`AGENTS.md` を入れてあるので、同じ案内板を読みます。
+
+**ターミナル・Claude Code・Codex がまだ入っていない人は → [install-obsidian-terminal.md](install-obsidian-terminal.md)**（入れ方の全手順）。今すぐ試すだけなら、Claude アプリの「Code」タブで同じ `second-brain` フォルダを選んでも、同じことができます。
 
 ## 動画のステップ1〜3で、もう箱を作った人へ
 
@@ -33,6 +35,7 @@ Obsidian と Claude Code で使う、フォルダ1つ。中に、案内板（CLA
 | 場所 | 何か |
 |---|---|
 | `CLAUDE.md` | 案内板。Claude Code が起動時に必ず読む1枚（24行） |
+| `AGENTS.md` | Codexの入口。「最初に CLAUDE.md を読む」の1行だけ |
 | `about-me.md` | 自分のこと。雛形のままだと、AI が5つ質問して書き直す |
 | `memory/cases/` | 案件カード。1案件1ファイル、「要約・いまやっていること・次の一手・待っていること」。いまの状態を上書き |
 | `memory/daily/` | 日誌。1日1ファイル、起きたことを追記 |
